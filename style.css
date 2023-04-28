@@ -28,12 +28,13 @@ nav {
 .logo, .item {
     padding: 10px;
 }
-.menu {
-    padding-top: 10px;
-    padding-right: 10px;
+.item {
+    margin-right: auto;
 }
-.menu-links {
-    padding-top: 10px;
+.toright {
+    padding-top: 15px;
+    padding-right: 10px;
+    margin-left: auto;
 }
 .header-button {
     width: fit-content;
