@@ -7,7 +7,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Scada&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Интернет-магазин гироскутеров. Быстрая доставка, выгодные цены, высокое качество, огромный выбор.">
+    <meta name="description"
+          content="Интернет-магазин гироскутеров. Быстрая доставка, выгодные цены, высокое качество, огромный выбор.">
     <title>Интернет-магазин гироскутеров My-Giro</title>
 </head>
 <body>
@@ -26,14 +27,57 @@
 </header>
 <main>
     <section class="banner">
-        <section class="banner-textbutton">
-            <section class="banner-text">
+        <div class="banner-textbutton">
+            <div class="banner-text">
                 <p>Более 500 моделей оригинальных гироскутеров, электросамокатов, сигвеев</p>
                 <p>Магазин электротранспорта №1 в России</p>
-            </section>
+            </div>
             <a href="#" class="button link">Посмотреть всё</a>
-        </section>
+        </div>
+    </section>
+    <section class="slider">
+        <div class="slides">
+            <div id="slides__1" class="slide">
+                <img src="img/battery.svg" alt="Медленный разряд батареи">
+                <p>Медленный разряд батареи</p>
+                <a class="slide__prev" href="#slides__4" title="Next"></a>
+                <a class="slide__next" href="#slides__2" title="Next"></a>
+            </div>
+            <div id="slides__2" class="slide">
+                <img src="img/clock.svg" alt="Скорость до 30 км/ч">
+                <p>Скорость до 30 км/ч</p>
+                <a class="slide__prev" href="#slides__1" title="Prev"></a>
+                <a class="slide__next" href="#slides__3" title="Next"></a>
+            </div>
+            <div id="slides__3" class="slide">
+                <img src="img/card.svg" alt="Простая и удобная оплата">
+                <p>Простая и удобная оплата</p>
+                <a class="slide__prev" href="#slides__2" title="Prev"></a>
+                <a class="slide__next" href="#slides__4" title="Next"></a>
+            </div>
+            <div id="slides__4" class="slide">
+                <img src="img/tools.svg" alt="Гарантия от производителя">
+                <p>Гарантия от производителя</p>
+                <a class="slide__prev" href="#slides__3" title="Prev"></a>
+                <a class="slide__next" href="#slides__5" title="Prev"></a>
+            </div>
+            <div id="slides__5" class="slide">
+                <img src="img/truck.svg" alt="Быстрая доставка">
+                <p>Быстрая доставка</p>
+                <a class="slide__prev" href="#slides__4" title="Prev"></a>
+                <a class="slide__next" href="#slides__6" title="Next"></a>
+            </div>
+            <div id="slides__6" class="slide">
+                <img src="img/emoji.svg" alt="Цены ниже в среднем на 30% при равном качестве">
+                <p>Цены ниже в среднем на 30% при равном качестве</p>
+                <a class="slide__prev" href="#slides__5" title="Prev"></a>
+                <a class="slide__next" href="#slides__1" title="Prev"></a>
+            </div>
+        </div>
     </section>
 </main>
+<footer>
+
+</footer>
 </body>
 </html>
