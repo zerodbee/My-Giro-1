@@ -65,7 +65,7 @@ nav {
 .banner-textbutton .banner-text {
     margin-bottom: 30px;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     nav {
         flex-direction: column;
         padding-bottom: 20px;
