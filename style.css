@@ -1,0 +1,40 @@
+/* Basic styling */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Scada', sans-serif;
+    font-size: 16px;
+}
+nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 10px;
+    background-color: blue;
+    justify-content: space-between;
+}
+.tel {
+    color: silver;
+}
+.header-link {
+    color: white;
+}
+.header-button-link {
+    color: black;
+}
+.logo, .item {
+    padding: 10px;
+}
+.menu {
+    padding-top: 15px;
+    padding-right: 10px;
+}
+.button {
+    width: fit-content;
+    height: fit-content;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px;
+}
