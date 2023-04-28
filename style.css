@@ -29,8 +29,11 @@ nav {
     padding: 10px;
 }
 .menu {
-    padding-top: 15px;
+    padding-top: 10px;
     padding-right: 10px;
+}
+.menu-links {
+    padding-top: 10px;
 }
 .header-button {
     width: fit-content;
@@ -62,7 +65,6 @@ nav {
 .banner-textbutton .banner-text {
     margin-bottom: 30px;
 }
-
 @media (max-width: 768px) {
     nav {
         flex-direction: column;
@@ -70,5 +72,10 @@ nav {
     }
     .menu-links {
         margin-bottom: 20px;
+    }
+}
+@media (min-width: 768px) {
+    .menu {
+        display: flex;
     }
 }
