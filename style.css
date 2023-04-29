@@ -10,12 +10,21 @@ body {
 a {
     text-decoration: none;
 }
-nav {
+.header {
+    height: 80px;
+    background-color: blue;
+
+}
+
+.headerline {
+    margin-right: 100px;
+    margin-left: 100px;
     display: flex;
     padding: 10px;
-    background-color: blue;
     justify-content: space-between;
 }
+
+
 .tel {
     color: rgba(255, 255, 255, 0.5);
 }
@@ -64,11 +73,13 @@ nav {
     padding: 30px;
     background: url("img/bannerbg.webp") no-repeat center;
     background-size: cover;
-    height: 100vh;
+    height: 700px;
     text-align: center;
 }
-.banner-textbutton .banner-text {
+.banner-text {
     color: white;
+}
+.banner-textbutton .banner-text {
     margin-bottom: 30px;
 }
 .slider {
@@ -125,55 +136,7 @@ footer {
     background-color: blue;
     height: 290px;
 }
-.banner-about {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 30px;
-    background: url("img/aboutbg.webp") no-repeat center;
-    background-size: cover;
-    height: 100vh;
-    text-align: center;
-}
-.banner-textbutton-about .banner-text-about {
-    margin-bottom: 30px;
-    text-align: center;
-}
-.banner-textbutton-about .banner-text-about h2 {
-    font-size: xx-large;
-    margin-bottom: 30px;
-    text-align: center;
-}
-.banner-textbutton-about .banner-text-about p {
-    margin-bottom: 30px;
-    text-align: center;
-}
-.banner-why {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 30px;
-    background: url("img/hoverboards.webp") no-repeat center;
-    background-size: cover;
-    height: 100vh;
-    text-align: center;
-}
-.banner-textbutton-why .banner-text-why {
-    margin-bottom: 30px;
-    text-align: center;
-}
-.banner-textbutton-why .banner-text-why h2 {
-    font-size: xx-large;
-    margin-bottom: 30px;
-    text-align: center;
-}
-.banner-textbutton-why .banner-text-why li {
-    margin-bottom: 30px;
-    text-align: center;
-}
-.banner-textbutton-why .banner-text-why ul {
-    margin-bottom: 30px;
-}
+
 @media (max-width: 767px) {
     nav {
         flex-direction: column;
@@ -186,15 +149,6 @@ footer {
 @media (min-width: 768px) {
     .menu {
         display: flex;
-    }
-    .banner-textbutton-about .banner-text-about p {
-        margin-right: 25%;
-        margin-left: 25%;
-    }
-    .banner-textbutton-why .banner-text-why li,
-    .banner-textbutton-why .banner-text-why .button{
-        margin-right: 60%;
-        margin-left: 5%;
     }
 }
 
