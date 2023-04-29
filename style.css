@@ -197,3 +197,27 @@ footer {
         margin-left: 5%;
     }
 }
+
+.nizz {
+
+    margin-right: 100px;
+    margin-left: 100px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.nizline, .nizline2, .nizline3, .nizline4, .nizline5 {
+    margin-top: 50px;
+    list-style-type: none;
+    color: white;
+}
+
+.dd1, .dd2 {
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.514);
+}
+
+.aa {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
