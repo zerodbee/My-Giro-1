@@ -123,6 +123,7 @@ a.slide__next{
 }
 footer {
     background-color: blue;
+    height: 100vh;
 }
 .banner-about {
     display: flex;
