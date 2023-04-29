@@ -10,21 +10,12 @@ body {
 a {
     text-decoration: none;
 }
-.header {
-    height: 80px;
-    background-color: blue;
-
-}
-
-.headerline {
-    margin-right: 100px;
-    margin-left: 100px;
+nav {
     display: flex;
     padding: 10px;
+    background-color: blue;
     justify-content: space-between;
 }
-
-
 .tel {
     color: rgba(255, 255, 255, 0.5);
 }
@@ -136,7 +127,6 @@ footer {
     background-color: blue;
     height: 290px;
 }
-
 @media (max-width: 767px) {
     nav {
         flex-direction: column;
@@ -150,28 +140,4 @@ footer {
     .menu {
         display: flex;
     }
-}
-
-.nizz {
-
-    margin-right: 100px;
-    margin-left: 100px;
-    justify-content: space-between;
-    display: flex;
-}
-
-.nizline, .nizline2, .nizline3, .nizline4, .nizline5 {
-    margin-top: 50px;
-    list-style-type: none;
-    color: white;
-}
-
-.dd1, .dd2 {
-    line-height: 1.5;
-    color: rgba(255, 255, 255, 0.514);
-}
-
-.aa {
-    font-size: 20px;
-    margin-bottom: 10px;
 }
