@@ -177,6 +177,8 @@ footer {
 .nizz {
     justify-content: space-between;
     display: flex;
+    margin-right: 100px;
+    margin-left: 100px;
 }
 
 .nizline, .nizline2, .nizline3, .nizline4, .nizline5 {
