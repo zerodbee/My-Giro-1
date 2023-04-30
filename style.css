@@ -186,7 +186,24 @@ footer {
     list-style-type: none;
     color: white;
 }
-
+.our-partners {
+    padding: 30px;
+}
+.our-partners-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.our-partners-text h2 {
+    margin-bottom: 30px;
+}
+.our-partners-brands p {
+    margin-top: 100px;
+    text-align: center;
+}
+.our-partners-brands-logos {
+    display: flex;
+}
 .dd1, .dd2 {
     line-height: 1.5;
     color: rgba(255, 255, 255, 0.514);
@@ -207,6 +224,9 @@ footer {
     .nizz {
         flex-direction: column;
     }
+    .our-partners-brands-logos {
+        flex-direction: column;
+    }
 }
 @media (min-width: 768px) {
     .menu {
@@ -220,5 +240,8 @@ footer {
     .banner-textbutton-why .banner-text-why .button{
         margin-right: 60%;
         margin-left: 5%;
+    }
+    .our-partners-brands-logos {
+        justify-content: center;
     }
 }
