@@ -213,18 +213,42 @@ footer {
     font-size: 20px;
     margin-bottom: 10px;
 }
+.how-we-delivery {
+    background: url("img/delivery_banner.webp") no-repeat center;
+    background-size: cover;
+    padding: 30px;
+}
+.how-we-delivery h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.how-we-delivery-text {
+    display: flex;
+    text-align: center;
+}
+.delivery-steps .delivery-steps-number {
+    border-radius: 100%;
+    background-color: white;
+    padding-left: 17px;
+    padding-right: 17px;
+    font-size: 3em;
+}
+.delivery-steps-name {
+    color: blue;
+    font-size: 1.5em;
+}
 @media (max-width: 767px) {
     nav {
-        flex-direction: column;
         padding-bottom: 20px;
     }
     .menu-links {
         margin-bottom: 20px;
     }
-    .nizz {
-        flex-direction: column;
+    .delivery-steps {
+        margin-bottom: 15px;
     }
-    .our-partners-brands-logos {
+    .nizz, nav, .our-partners-brands-logos,
+    .how-we-delivery-text{
         flex-direction: column;
     }
 }
