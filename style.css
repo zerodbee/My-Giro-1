@@ -123,7 +123,9 @@ a.slide__next{
 }
 footer {
     background-color: blue;
-    padding: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 .banner-about {
     display: flex;
