@@ -272,6 +272,11 @@ footer {
 .how-we-delivery-text {
     display: flex;
     text-align: center;
+    justify-content: center;
+}
+
+.how-we-delivery-text p {
+    margin: 15px;
 }
 
 .delivery-steps .delivery-steps-number {
@@ -287,7 +292,7 @@ footer {
     font-size: 1.5em;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 899px) {
     nav {
         padding-bottom: 20px;
     }
@@ -301,12 +306,30 @@ footer {
     }
 
     .nizz, nav, .our-partners-brands-logos,
-    .how-we-delivery-text, .post {
+    .how-we-delivery-text, .post,
+    .subscribeblock, .putin, .container1, .container2 {
         flex-direction: column;
+    }
+
+    .subscribeblock {
+        padding-bottom: 30px;
+    }
+
+    .obama {
+        margin-top: 50px;
+    }
+
+    .carta1, .carta2, .carta3, .carta4 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .our-partners-brands-logos {
+        align-items: center;
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 900px) {
     .menu {
         display: flex;
     }
@@ -325,9 +348,18 @@ footer {
     .our-partners-brands-logos {
         justify-content: center;
     }
+
     .card1, .card2, .card3, .card4 {
         margin-right: 30px;
         margin-left: 30px;
+    }
+
+    .carta2, .carta4 {
+        margin-left: 50px;
+    }
+
+    .container1, .container2 {
+        padding: 30px;
     }
 }
 
@@ -372,7 +404,6 @@ input[type="radio"] {
 }
 
 .filters {
-    
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -390,6 +421,8 @@ input[type="radio"] {
 
 .post {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .posts {
@@ -397,27 +430,21 @@ input[type="radio"] {
     margin: auto;
 }
 
-
-
 .feedback {
-
     background-color: #DBF2FF;
 }
 
 .feedback1 {
     display: table;
-
     margin: 0 auto;
 }
 
 .container1, .container2 {
-    
-    padding: 30px;
     display: flex;
+    justify-content: center;
 }
 
 .carta1, .carta2, .carta3, .carta4 {
-
     padding: 20px;
     display: flex;
     align-items: center;
@@ -435,22 +462,12 @@ input[type="radio"] {
     padding: 10px;
 }
 
-.carta2, .carta4 {
-
-    margin-left: 50px;
-}
-
-.subscribeblock{
-
+.subscribeblock {
     align-items: center;
     justify-content: center;
     display: flex;
     background-size: cover;
     background-image: url(img/subscribe.webp);
-}
-
-.but {
-
 }
 
 .f1 {
@@ -487,12 +504,10 @@ input[type="radio"] {
 }
 
 .obama {
-
     text-align: center;
 }
 
 .button123 {
-
     border-radius: 20px;
     background-color: blue;
     color: white;
@@ -507,7 +522,6 @@ input[type="radio"] {
 }
 
 .f11 {
-    
     outline: none;
     padding: 20px;
     border-radius: 20px;
