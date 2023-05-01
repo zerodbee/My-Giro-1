@@ -3,42 +3,53 @@
     padding: 0;
     margin: 0;
 }
+
 body {
     font-family: 'Scada', sans-serif;
     font-size: 15px;
 }
+
 a {
     text-decoration: none;
 }
+
 nav {
     display: flex;
     padding: 10px;
     background-color: blue;
     justify-content: space-between;
 }
+
 .tel {
     color: rgba(255, 255, 255, 0.5);
 }
+
 .header-link, .link {
     color: white;
     transition: 0.5s;
 }
+
 .header-link:hover, .link:hover {
     color: rgba(255, 255, 255, 0.5);
 }
+
 .header-button-link {
     color: black;
 }
+
 .logo, .item {
     padding: 10px;
 }
+
 .menu {
     padding-top: 10px;
     padding-right: 10px;
 }
+
 .menu-links {
     padding-top: 10px;
 }
+
 .header-button {
     width: fit-content;
     height: fit-content;
@@ -47,9 +58,11 @@ nav {
     padding: 10px;
     transition: 0.5s;
 }
+
 .header-button:hover {
     background-color: rgba(255, 255, 255, 0.7);
 }
+
 .button {
     width: fit-content;
     height: fit-content;
@@ -57,6 +70,7 @@ nav {
     border-radius: 30px;
     padding: 10px;
 }
+
 .banner {
     display: flex;
     justify-content: center;
@@ -67,10 +81,12 @@ nav {
     height: 100vh;
     text-align: center;
 }
+
 .banner-textbutton .banner-text {
     color: white;
     margin-bottom: 30px;
 }
+
 .slider {
     width: 100%;
     height: 180px;
@@ -80,17 +96,18 @@ nav {
 }
 
 .sl {
-        background-color: #DBF2FF;
+    background-color: #DBF2FF;
 }
 
 .slides {
-    
+
     display: flex;
     overflow-x: scroll;
     position: relative;
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
 }
+
 .slide {
     display: flex;
     flex-direction: column;
@@ -106,9 +123,11 @@ nav {
     transform: scale(1);
     scroll-snap-align: center;
 }
+
 .slide img {
     margin-bottom: 15px;
 }
+
 .slide a {
     position: absolute;
     top: 48%;
@@ -119,20 +138,24 @@ nav {
     padding: 3px;
     box-sizing: border-box;
 }
+
 a.slide__prev {
     transform: rotate(135deg);
     left: 5%;
 }
-a.slide__next{
+
+a.slide__next {
     transform: rotate(-45deg);
     right: 5%;
 }
+
 footer {
     background-color: blue;
     padding-bottom: 30px;
     padding-right: 30px;
     padding-left: 30px;
 }
+
 .banner-about {
     display: flex;
     justify-content: center;
@@ -143,19 +166,23 @@ footer {
     height: 100vh;
     text-align: center;
 }
+
 .banner-textbutton-about .banner-text-about {
     margin-bottom: 30px;
     text-align: center;
 }
+
 .banner-textbutton-about .banner-text-about h2 {
     font-size: xx-large;
     margin-bottom: 30px;
     text-align: center;
 }
+
 .banner-textbutton-about .banner-text-about p {
     margin-bottom: 30px;
     text-align: center;
 }
+
 .banner-why {
     display: flex;
     justify-content: center;
@@ -166,22 +193,27 @@ footer {
     height: 100vh;
     text-align: center;
 }
+
 .banner-textbutton-why .banner-text-why {
     margin-bottom: 30px;
     text-align: center;
 }
+
 .banner-textbutton-why .banner-text-why h2 {
     font-size: xx-large;
     margin-bottom: 30px;
     text-align: center;
 }
+
 .banner-textbutton-why .banner-text-why li {
     margin-bottom: 30px;
     text-align: center;
 }
+
 .banner-textbutton-why .banner-text-why ul {
     margin-bottom: 30px;
 }
+
 .nizz {
     justify-content: space-between;
     display: flex;
@@ -192,24 +224,30 @@ footer {
     list-style-type: none;
     color: white;
 }
+
 .our-partners {
     padding: 30px;
 }
+
 .our-partners-text {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .our-partners-text h2 {
     margin-bottom: 30px;
 }
+
 .our-partners-brands p {
     margin-top: 100px;
     text-align: center;
 }
+
 .our-partners-brands-logos {
     display: flex;
 }
+
 .dd1, .dd2 {
     line-height: 1.5;
     color: rgba(255, 255, 255, 0.514);
@@ -219,19 +257,23 @@ footer {
     font-size: 20px;
     margin-bottom: 10px;
 }
+
 .how-we-delivery {
     background: url("img/delivery_banner.webp") no-repeat center;
     background-size: cover;
     padding: 30px;
 }
+
 .how-we-delivery h2 {
     text-align: center;
     margin-bottom: 50px;
 }
+
 .how-we-delivery-text {
     display: flex;
     text-align: center;
 }
+
 .delivery-steps .delivery-steps-number {
     border-radius: 100%;
     background-color: white;
@@ -239,72 +281,65 @@ footer {
     padding-right: 17px;
     font-size: 3em;
 }
+
 .delivery-steps-name {
     color: blue;
     font-size: 1.5em;
 }
+
 @media (max-width: 767px) {
     nav {
         padding-bottom: 20px;
     }
+
     .menu-links {
         margin-bottom: 20px;
     }
+
     .delivery-steps {
         margin-bottom: 15px;
     }
+
     .nizz, nav, .our-partners-brands-logos,
-    .how-we-delivery-text{
+    .how-we-delivery-text, .post {
         flex-direction: column;
     }
 }
+
 @media (min-width: 768px) {
     .menu {
         display: flex;
     }
+
     .banner-textbutton-about .banner-text-about p {
         margin-right: 25%;
         margin-left: 25%;
     }
+
     .banner-textbutton-why .banner-text-why li,
-    .banner-textbutton-why .banner-text-why .button{
+    .banner-textbutton-why .banner-text-why .button {
         margin-right: 60%;
         margin-left: 5%;
     }
+
     .our-partners-brands-logos {
         justify-content: center;
     }
 }
 
-
-.productsblock {
-
-
-}
-
 .productsblock2 {
-padding: 50px;
     display: flex;
-
-
 }
-
-
 
 input[type="radio"] {
     position: absolute;
     left: -9999px;
-  }
+}
 
-  [value="giro"]:checked ~ .posts .post:not([data-category~="giro"]),
-  [value="sigv"]:checked ~ .posts .post:not([data-category~="sigv"]),
-  [value="samo"]:checked ~ .posts .post:not([data-category~="samo"]) {
+[value="giro"]:checked ~ .posts .post:not([data-category~="giro"]),
+[value="sigv"]:checked ~ .posts .post:not([data-category~="sigv"]),
+[value="samo"]:checked ~ .posts .post:not([data-category~="samo"]) {
     display: none;
-  }
-
-
-.a {
-
 }
 
 .a1 {
@@ -314,45 +349,39 @@ input[type="radio"] {
 }
 
 .filters {
-position: absolute;
-left: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-    gap: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
     display: flex;
     list-style-type: none;
-
+    margin-top: 20px;
 }
 
-
 .order {
-
-        color: white;
-        width: fit-content;
-        height: fit-content;
-        background-color: blue;
-        border-radius: 30px;
-        padding: 10px;
-
+    color: white;
+    width: fit-content;
+    height: fit-content;
+    background-color: blue;
+    border-radius: 30px;
+    padding: 10px;
 }
 
 .order:hover {
-        transition: 0.5s;
+    transition: 0.5s;
     color: rgba(255, 255, 255, 0.5);;
 }
 
 
 .card1, .card2, .card3, .card4 {
-text-align: center;
-    padding: 80px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 .post {
-
-
-display: flex;
+    display: flex;
 }
 
 .posts {
-margin: auto;
+    margin: auto;
 }
