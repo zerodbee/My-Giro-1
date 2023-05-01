@@ -356,7 +356,23 @@ input[type="radio"] {
     font-size: 30px;
 }
 
+.buttonlink {
+    color: white;
+    width: fit-content;
+    height: fit-content;
+    background-color: blue;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10PX;
+}
+
+.buttonlink:hover {
+    transition: 0.5s;
+    color: rgba(255, 255, 255, 0.7);
+}
+
 .filters {
+    
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -377,5 +393,125 @@ input[type="radio"] {
 }
 
 .posts {
+    padding-top: 50px;
     margin: auto;
+}
+
+
+
+.feedback {
+
+    background-color: #DBF2FF;
+}
+
+.feedback1 {
+    display: table;
+
+    margin: 0 auto;
+}
+
+.container1, .container2 {
+    
+    padding: 30px;
+    display: flex;
+}
+
+.carta1, .carta2, .carta3, .carta4 {
+
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 150px;
+    width: 400px;
+    background-color: white;
+}
+
+.a5 {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.a6 {
+    padding: 10px;
+}
+
+.carta2, .carta4 {
+
+    margin-left: 50px;
+}
+
+.subscribeblock{
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-size: cover;
+    background-image: url(img/subscribe.webp);
+}
+
+.but {
+
+}
+
+.f1 {
+    outline: none;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    width: 320px;
+    height: 40px;
+}
+
+.f2 {
+    margin-left: -100px;
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 0 150px 150px 0;
+    border: none;
+}
+
+.f2:hover {
+    transition: 0.5s;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.putin {
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-size: cover;
+    background-image: url(img/back.png);
+}
+
+.obama {
+
+    text-align: center;
+}
+
+.button123 {
+
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: none;
+}
+
+.button123:hover {
+    transition: 0.5s;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.f11 {
+    
+    outline: none;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px;
+    background-color: #F3F3F3;
+    height: 40px;
 }
