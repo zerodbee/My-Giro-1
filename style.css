@@ -307,7 +307,7 @@ footer {
 
     .nizz, nav, .our-partners-brands-logos,
     .how-we-delivery-text, .post,
-    .subscribeblock, .putin, .container1, .container2 {
+    .subscribeblock, .contacts, .container1, .container2 {
         flex-direction: column;
     }
 
@@ -315,7 +315,7 @@ footer {
         padding-bottom: 30px;
     }
 
-    .obama {
+    .contact-form {
         margin-top: 50px;
     }
 
