@@ -450,6 +450,7 @@ input[type="radio"] {
 
 .carta1, .carta2, .carta3, .carta4 {
     padding: 20px;
+    width: 350px;
     display: flex;
     align-items: center;
     border-radius: 150px;
